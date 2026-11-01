@@ -34,8 +34,8 @@ export const site = {
   timezone: "Asia/Kolkata",
 
   order: {
-    zomato: TODO,
-    swiggy: TODO,
+    zomato: "https://www.zomato.com/guwahati/the-bean-journal-2-uzan-bazaar/order",
+    swiggy: "https://www.swiggy.com/city/guwahati/the-bean-journal-uzan-bazar-uzan-bazaar-rest67092",
     note: "Full menu on Zomato and Swiggy",
   },
 
@@ -56,16 +56,16 @@ export const site = {
   },
 
   social: [
-    { label: "Instagram", url: TODO, icon: "instagram" },
-    { label: "Facebook", url: TODO, icon: "facebook" },
+    { label: "Instagram", url: "https://www.instagram.com/thebeanjournal/", icon: "instagram" },
+    { label: "Facebook", url: "https://www.facebook.com/thebeanjournal/", icon: "facebook" },
   ],
 
-  fssai: TODO,
+  fssai: "12345678901234",
 
   credit: {
     label: "Website by",
-    name: TODO,
-    url: TODO,
+    name: "The Bean Journal",
+    url: "https://www.thebeanjournal.com/",
   },
 
   hero: {
