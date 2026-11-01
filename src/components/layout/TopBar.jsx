@@ -1,7 +1,7 @@
 import { site, maps } from "../../Data/Site";
 import { getTodayStatus, isTodo } from "../../Lib/Utils";
-import { MapPinIcon, PhoneIcon } from "../UI/Icons";
-import TodoBadge from "../UI/TodoBadge";
+import { MapPinIcon, PhoneIcon } from "../../components/UI/Icons";
+import TodoBadge from "../../components/UI/TodoBadge";
 
 export default function TopBar() {
   const status = getTodayStatus(site.hours, site.timezone);

@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { site } from "../../Data/Site";
+import { site } from "../../Data/site";
 import Reveal from "../UI/Reveal";
 import Lightbox from "../UI/Lightbox";
 import { ArrowUpRightIcon, BeanIcon } from "../UI/Icons";

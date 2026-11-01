@@ -1,8 +1,8 @@
-import { site } from "../../Data/Site";
-import { hasValue } from "../../Lib/Utils";
-import Reveal from "../UI/Reveal";
-import TodoBadge from "../UI/TodoBadge";
-import { BeanIcon, MapPinIcon } from "../UI/Icons";
+import { site } from "../../Data/site";
+import { hasValue } from "../../Lib/utils";
+import Reveal from "../Ui/Reveal";
+import TodoBadge from "../Ui/TodoBadge";
+import { BeanIcon, MapPinIcon } from "../Ui/Icons";
 
 export default function About() {
   return (
