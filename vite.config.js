@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
-import { maps, site } from "./src/Data/Site.js";
+import { maps, site } from "./src/data/site.js";
 
 function escapeHtml(value) {
   return String(value)

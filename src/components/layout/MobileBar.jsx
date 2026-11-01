@@ -1,13 +1,13 @@
 import { site } from "../../Data/Site";
-import { cx, whatsappHref } from "../../Lib/Utils";
-import { useOrder } from "../../components/UI/OrderContext";
-import TodoBadge from "../../components/UI/TodoBadge";
+import { cx, whatsappHref } from "../../Lib/utils";
+import { useOrder } from "../Ui/OrderContext";
+import TodoBadge from "../Ui/TodoBadge";
 import {
   BagIcon,
   CalendarIcon,
   PhoneIcon,
   WhatsAppIcon,
-} from "../../components/UI/Icons";
+} from "../Ui/Icons";
 
 export default function MobileBar() {
   const { openChooser } = useOrder();

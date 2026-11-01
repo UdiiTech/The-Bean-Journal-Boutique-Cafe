@@ -1,4 +1,4 @@
-import { cx } from "../../Lib/Utils";
+import { cx } from "../../Lib/utils";
 
 const base =
   "inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 py-2.5 text-[0.95rem] font-semibold leading-none decoration-transparent transition-colors duration-200 disabled:pointer-events-none disabled:opacity-60";

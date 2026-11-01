@@ -1,4 +1,4 @@
-import { cx } from "../../Lib/Utils";
+import { cx } from "../../Lib/utils";
 
 export default function GamosaDivider({ className }) {
   return <div aria-hidden="true" className={cx("gamosa-divider", className)} />;

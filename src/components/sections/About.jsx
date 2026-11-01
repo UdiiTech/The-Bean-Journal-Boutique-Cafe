@@ -1,4 +1,4 @@
-import { site } from "../../Data/site";
+import { site } from "../../Data/Site";
 import { hasValue } from "../../Lib/utils";
 import Reveal from "../Ui/Reveal";
 import TodoBadge from "../Ui/TodoBadge";

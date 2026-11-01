@@ -8,10 +8,10 @@ import {
   isValidIndianMobile,
   todayISO,
   whatsappHref,
-} from "../../Lib/Utils";
-import { buttonClasses } from "../UI/Button";
-import Reveal from "../UI/Reveal";
-import TodoBadge from "../UI/TodoBadge";
+} from "../../Lib/utils";
+import { buttonClasses } from "../Ui/Button";
+import Reveal from "../Ui/Reveal";
+import TodoBadge from "../Ui/TodoBadge";
 import {
   AlertIcon,
   CalendarIcon,
@@ -19,7 +19,7 @@ import {
   PhoneIcon,
   UsersIcon,
   WhatsAppIcon,
-} from "../UI/Icons";
+} from "../Ui/Icons";
 
 const initialForm = {
   name: "",

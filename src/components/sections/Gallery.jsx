@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
-import { site } from "../../Data/site";
-import Reveal from "../UI/Reveal";
-import Lightbox from "../UI/Lightbox";
-import { ArrowUpRightIcon, BeanIcon } from "../UI/Icons";
+import { site } from "../../Data/Site";
+import Reveal from "../Ui/Reveal";
+import Lightbox from "../Ui/Lightbox";
+import { ArrowUpRightIcon, BeanIcon } from "../Ui/Icons";
 
 export default function Gallery() {
   const [activeIndex, setActiveIndex] = useState(null);

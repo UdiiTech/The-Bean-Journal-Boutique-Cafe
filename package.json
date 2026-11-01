@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "check-todos": "node Scripts/CheckTodos.mjs"
+    "check:imports": "node scripts/check-imports.mjs",
+    "prebuild": "npm run check:imports",
+    "check-todos": "node scripts/CheckTodos.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",

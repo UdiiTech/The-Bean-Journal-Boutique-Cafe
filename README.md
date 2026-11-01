@@ -20,11 +20,11 @@ npm run preview
 npm run check-todos
 ```
 
-`npm run check-todos` lists every value in `src/Data/Site.js` that is still the exact string `TODO`.
+`npm run check-todos` lists every value in `src/data/site.js` that is still the exact string `TODO`.
 
 ## Edit the business details
 
-Everything the café may need to change lives in `src/Data/Site.js`. Do not edit individual components for business content.
+Everything the café may need to change lives in `src/data/site.js`. Do not edit individual components for business content.
 
 - Name, address, phone, cuisine and rating are already filled in.
 - Replace each `TODO` with confirmed information, then run `npm run check-todos`.
@@ -56,7 +56,7 @@ The form includes client-side validation, a honeypot field and a 15-second reque
 
 ## Photos
 
-Photos live in `public/images/`. To replace one, overwrite the file and keep the same filename, or update the path, `width`, `height` and `alt` text in `src/Data/Site.js`. The hero image is eager-loaded; menu and gallery photos are lazy-loaded.
+Photos live in `public/images/`. To replace one, overwrite the file and keep the same filename, or update the path, `width`, `height` and `alt` text in `src/data/site.js`. The hero image is eager-loaded; menu and gallery photos are lazy-loaded.
 
 ## Deploy to Cloudflare Pages
 
@@ -84,7 +84,7 @@ Optional Cloudflare Web Analytics: create a site in Cloudflare, then paste the b
 
 ## Project notes
 
-- `src/Data/Site.js` is the single source of truth for business content.
+- `src/data/site.js` is the single source of truth for business content.
 - `vite.config.js` injects the page title, description, canonical, Open Graph/Twitter tags and `CafeOrCoffeeShop` structured data from `site.js`.
 - Modals use native `<dialog>` elements for focus trapping and Escape handling.
 - The phone, WhatsApp and order actions are plain links; no tracking scripts are included by default.
