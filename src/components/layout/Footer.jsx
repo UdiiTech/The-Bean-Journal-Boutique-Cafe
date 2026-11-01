@@ -1,17 +1,17 @@
-import { site, maps } from "../../data/site";
-import { navLinks } from "../../lib/nav";
-import { cx, formatTime, hasValue } from "../../lib/utils";
-import { useOrder } from "../ui/order-context";
-import { buttonClasses } from "../ui/Button";
-import TodoBadge from "../ui/TodoBadge";
-import GamosaDivider from "../ui/GamosaDivider";
+import { site, maps } from "../../Data/Site";
+import { navLinks } from "../../Lib/Nav";
+import { cx, formatTime, hasValue } from "../../Lib/Utils";
+import { useOrder } from "../UI/OrderContext";
+import { buttonClasses } from "../UI/Button";
+import TodoBadge from "../UI/TodoBadge";
+import GamosaDivider from "../UI/GamosaDivider";
 import {
   BeanIcon,
   FacebookIcon,
   InstagramIcon,
   MapPinIcon,
   PhoneIcon,
-} from "../ui/Icons";
+} from "../UI/Icons";
 
 const socialIcons = {
   instagram: InstagramIcon,

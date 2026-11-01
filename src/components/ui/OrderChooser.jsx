@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { site } from "../../data/site";
-import { hasValue } from "../../lib/utils";
-import useBodyScrollLock from "../../hooks/useBodyScrollLock";
-import { OrderContext } from "./order-context";
+import { site } from "../../Data/Site";
+import { hasValue } from "../../Lib/Utils";
+import useBodyScrollLock from "../../Hooks/UseBodyScrollLock";
+import { OrderContext } from "./OrderContext";
 import TodoBadge from "./TodoBadge";
 import { buttonClasses } from "./Button";
 import {

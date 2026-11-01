@@ -1,9 +1,9 @@
-import { site, maps } from "../../data/site";
-import { hasValue, isTodo } from "../../lib/utils";
-import Reveal from "../ui/Reveal";
-import TodoBadge from "../ui/TodoBadge";
-import { buttonClasses } from "../ui/Button";
-import { ArrowUpRightIcon, StarIcon } from "../ui/Icons";
+import { site, maps } from "../../Data/Site";
+import { hasValue, isTodo } from "../../Lib/Utils";
+import Reveal from "../UI/Reveal";
+import TodoBadge from "../UI/TodoBadge";
+import { buttonClasses } from "../UI/Button";
+import { ArrowUpRightIcon, StarIcon } from "../UI/Icons";
 
 function Stars({ value }) {
   const stars = [0, 1, 2, 3, 4];

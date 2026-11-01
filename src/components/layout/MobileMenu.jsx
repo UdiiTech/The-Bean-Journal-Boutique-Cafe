@@ -1,17 +1,17 @@
 import { useCallback, useEffect, useRef } from "react";
-import { site } from "../../data/site";
-import { cx, whatsappHref } from "../../lib/utils";
-import useBodyScrollLock from "../../hooks/useBodyScrollLock";
-import { useOrder } from "../ui/order-context";
-import { buttonClasses } from "../ui/Button";
-import TodoBadge from "../ui/TodoBadge";
+import { site } from "../../Data/Site";
+import { cx, whatsappHref } from "../../Lib/Utils";
+import useBodyScrollLock from "../../Hooks/UseBodyScrollLock";
+import { useOrder } from "../UI/OrderContext";
+import { buttonClasses } from "../UI/Button";
+import TodoBadge from "../UI/TodoBadge";
 import {
   ArrowRightIcon,
   BeanIcon,
   CloseIcon,
   PhoneIcon,
   WhatsAppIcon,
-} from "../ui/Icons";
+} from "../UI/Icons";
 
 export default function MobileMenu({ open, onClose, links }) {
   const dialogRef = useRef(null);

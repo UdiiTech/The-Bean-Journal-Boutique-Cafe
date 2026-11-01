@@ -1,15 +1,15 @@
-import { site } from "../../data/site";
-import { hasValue, whatsappHref } from "../../lib/utils";
-import { useOrder } from "../ui/order-context";
-import { buttonClasses } from "../ui/Button";
-import TodoBadge from "../ui/TodoBadge";
+import { site } from "../../Data/Site";
+import { hasValue, whatsappHref } from "../../Lib/Utils";
+import { useOrder } from "../UI/OrderContext";
+import { buttonClasses } from "../UI/Button";
+import TodoBadge from "../UI/TodoBadge";
 import {
   CalendarIcon,
   MapPinIcon,
   PhoneIcon,
   StarIcon,
   WhatsAppIcon,
-} from "../ui/Icons";
+} from "../UI/Icons";
 
 export default function Hero() {
   const { openChooser } = useOrder();

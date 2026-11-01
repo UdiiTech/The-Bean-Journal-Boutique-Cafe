@@ -1,16 +1,16 @@
-import { OrderProvider } from "./components/ui/OrderChooser";
-import GamosaDivider from "./components/ui/GamosaDivider";
-import TopBar from "./components/layout/TopBar";
-import Header from "./components/layout/Header";
-import Footer from "./components/layout/Footer";
-import MobileBar from "./components/layout/MobileBar";
-import Hero from "./components/sections/Hero";
-import About from "./components/sections/About";
-import MenuHighlights from "./components/sections/MenuHighlights";
-import Gallery from "./components/sections/Gallery";
-import Reviews from "./components/sections/Reviews";
-import Reservation from "./components/sections/Reservation";
-import LocationHours from "./components/sections/LocationHours";
+import { OrderProvider } from "./Components/UI/OrderChooser";
+import GamosaDivider from "./Components/UI/GamosaDivider";
+import TopBar from "./Components/Layout/TopBar";
+import Header from "./Components/Layout/Header";
+import Footer from "./Components/Layout/Footer";
+import MobileBar from "./Components/Layout/MobileBar";
+import Hero from "./Components/Sections/Hero";
+import About from "./Components/Sections/About";
+import MenuHighlights from "./Components/Sections/MenuHighlights";
+import Gallery from "./Components/Sections/Gallery";
+import Reviews from "./Components/Sections/Reviews";
+import Reservation from "./Components/Sections/Reservation";
+import LocationHours from "./Components/Sections/LocationHours";
 
 export default function App() {
   return (

@@ -1,8 +1,8 @@
 import { readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 
-const file = fileURLToPath(new URL("../src/data/site.js", import.meta.url));
-const relative = "src/data/site.js";
+const file = fileURLToPath(new URL("../src/Data/Site.js", import.meta.url));
+const relative = "src/Data/Site.js";
 const lines = (await readFile(file, "utf8")).split(/\r?\n/);
 const hits = [];
 

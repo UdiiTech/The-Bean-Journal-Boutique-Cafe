@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef } from "react";
-import useBodyScrollLock from "../../hooks/useBodyScrollLock";
+import useBodyScrollLock from "../../Hooks/UseBodyScrollLock";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,

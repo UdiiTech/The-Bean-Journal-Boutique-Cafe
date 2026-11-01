@@ -1,14 +1,14 @@
-import { site, maps } from "../../data/site";
-import { formatTime, hasValue, isTodo } from "../../lib/utils";
-import { buttonClasses } from "../ui/Button";
-import Reveal from "../ui/Reveal";
-import TodoBadge from "../ui/TodoBadge";
+import { site, maps } from "../../Data/Site";
+import { formatTime, hasValue, isTodo } from "../../Lib/Utils";
+import { buttonClasses } from "../UI/Button";
+import Reveal from "../UI/Reveal";
+import TodoBadge from "../UI/TodoBadge";
 import {
   ClockIcon,
   MapPinIcon,
   NavigationIcon,
   PhoneIcon,
-} from "../ui/Icons";
+} from "../UI/Icons";
 
 export default function LocationHours() {
   const hoursKnown = Array.isArray(site.hours) && site.hours.length > 0;

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { site } from "../../Data/Site";
-import { navLinks } from "../../lib/nav";
-import { useOrder } from "../ui/order-context";
-import { buttonClasses } from "../ui/Button";
-import { BeanIcon, MenuIcon } from "../ui/Icons";
+import { navLinks } from "../../Lib/Nav";
+import { useOrder } from "../UI/OrderContext";
+import { buttonClasses } from "../UI/Button";
+import { BeanIcon, MenuIcon } from "../UI/Icons";
 import MobileMenu from "./MobileMenu";
 
 export default function Header() {

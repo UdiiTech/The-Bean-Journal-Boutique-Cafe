@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { cx } from "../../lib/utils";
+import { cx } from "../../Lib/Utils";
 
 export default function Reveal({
   as: Tag = "div",

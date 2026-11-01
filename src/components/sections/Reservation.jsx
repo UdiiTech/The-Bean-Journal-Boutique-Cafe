@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { site } from "../../data/site";
+import { site } from "../../Data/Site";
 import {
   buildReservationMessage,
   cx,
@@ -8,10 +8,10 @@ import {
   isValidIndianMobile,
   todayISO,
   whatsappHref,
-} from "../../lib/utils";
-import { buttonClasses } from "../ui/Button";
-import Reveal from "../ui/Reveal";
-import TodoBadge from "../ui/TodoBadge";
+} from "../../Lib/Utils";
+import { buttonClasses } from "../UI/Button";
+import Reveal from "../UI/Reveal";
+import TodoBadge from "../UI/TodoBadge";
 import {
   AlertIcon,
   CalendarIcon,
@@ -19,7 +19,7 @@ import {
   PhoneIcon,
   UsersIcon,
   WhatsAppIcon,
-} from "../ui/Icons";
+} from "../UI/Icons";
 
 const initialForm = {
   name: "",

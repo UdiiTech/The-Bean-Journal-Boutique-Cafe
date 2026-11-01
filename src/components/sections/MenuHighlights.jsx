@@ -1,11 +1,11 @@
 import { useRef, useState } from "react";
-import { site } from "../../data/site";
-import { cx, formatPrice, hasValue, isTodo } from "../../lib/utils";
-import { useOrder } from "../ui/order-context";
-import { buttonClasses } from "../ui/Button";
-import Reveal from "../ui/Reveal";
-import TodoBadge from "../ui/TodoBadge";
-import { BeanIcon, BagIcon, PhoneIcon } from "../ui/Icons";
+import { site } from "../../Data/Site";
+import { cx, formatPrice, hasValue, isTodo } from "../../Lib/Utils";
+import { useOrder } from "../UI/OrderContext";
+import { buttonClasses } from "../UI/Button";
+import Reveal from "../UI/Reveal";
+import TodoBadge from "../UI/TodoBadge";
+import { BeanIcon, BagIcon, PhoneIcon } from "../UI/Icons";
 
 function DietMarker({ diet }) {
   if (diet !== "veg" && diet !== "non-veg") {
